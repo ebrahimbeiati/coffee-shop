@@ -11,22 +11,59 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
-nav {
+header {
+    display: flex;
     background-color: #333;
     color: #fff;
-    padding: 15px;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
-nav ul {
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+/* Main navigation styles */
+.navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
+.navbar ul li {
     margin-right: 20px;
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+    margin-left: 15px;
+}
+
+#logo a:hover {
+    color: #ffc107; /* Change text color to yellow on hover */
 }
 
 nav ul li a {

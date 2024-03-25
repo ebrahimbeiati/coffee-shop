@@ -1,15 +1,58 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* Header styles */
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+/* Main navigation styles */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+#logo a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+#logo a:hover {
+    color: #ffc107; /* Change text color to yellow on hover */
+}
+
 
 .menu-container {
     max-width: 1200px;

@@ -56,6 +56,19 @@ header {
 .navbar ul li {
     margin-right: 20px;
 }
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+    margin-left: 10px;
+}
+
+#logo a:hover {
+    color: #ffc107; /* Change text color to yellow on hover */
+}
+
+
 
 main {
     position: relative;
