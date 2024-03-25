@@ -8,7 +8,7 @@ body {
     height: 100vh;
     display: flex;
     overflow: hidden;
-    background-color: #b3aaaa;
+    background-color: #cac5c5;
     flex-direction: column; /* Change the flex direction to column */
 }
 
@@ -73,12 +73,10 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 0.8rem; /* Default font size */
+    font-size: 0.8rem; 
 
-    /* Responsive font size adjustments */
     @media (min-width: 768px) {
         font-size: 1rem; /* Adjust font size for tablets and larger screens */
     }
@@ -108,7 +106,7 @@ header {
 .contact-card address p {
     margin-bottom: 10px;
     font-size: 18px;
-    color: #666;
+    color: #0f0d0d;
 }
 
 .contact-card a {
