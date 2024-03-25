@@ -129,8 +129,18 @@ main {
 .content .description {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.8rem; /* Default font size */
+
+    /* Responsive font size adjustments */
+    @media (min-width: 768px) {
+        font-size: 1rem; /* Adjust font size for tablets and larger screens */
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 1.2rem; /* Adjust font size for desktop screens */
+    }
 }
+
 
 .content button {
     width: fit-content;

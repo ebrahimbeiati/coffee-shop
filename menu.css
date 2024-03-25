@@ -70,12 +70,6 @@ header {
 
 
 
-main {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-}
 
 .menu-container {
     max-width: 1200px;
@@ -100,6 +94,9 @@ main {
 .menu-items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;    
+
 }
 
 .menu-item {
@@ -137,5 +134,40 @@ main {
 @media screen and (max-width: 480px) {
     .menu-item {
         width: calc(100% - 20px);
+    }
+}
+/* Add this CSS to style the footer */
+/* Add this CSS to the main content area to enable scrolling */
+main {
+    flex: 1; /* Fill remaining vertical space */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Adjust the menu container to fit within the available space */
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto; /* Enable scrolling if content exceeds container height */
+}
+
+/* Add this CSS to style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+}
+
+/* Add responsive adjustments */
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px; /* Decrease font size for smaller screens */
     }
 }
