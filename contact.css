@@ -50,32 +50,7 @@ main {
     padding: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.contact-info h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
-.contact-info address p {
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #666;
-}
-
-.contact-info a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact-info a:hover {
-    color: #0056b3; /* Change to your desired hover color */
-}
 
 /* Footer styles */
 footer {
